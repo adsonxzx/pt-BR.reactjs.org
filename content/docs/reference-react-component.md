@@ -242,7 +242,7 @@ componentWillUnmount()
 
 `componentWillUnmount()` é invocado imediatamente antes que um componente seja desmontado e destruído. Qualquer limpeza necessária deve ser realizada neste método, como invalidar timers, cancelar requisições de rede, ou limpar qualquer subscrição que foi criada no `componentDidMount()`.
 
-**Não se deve chamar `setState()`** em `componentWillUnmount()` Porque o componente nunca irá será renderizado novametne. Uma vez que a instância do componente foi desmontada, ela nunca será montada novamente.
+**Não se deve chamar `setState()`** em `componentWillUnmount()` Porque o componente nunca irá será renderizado novamente. Uma vez que a instância do componente foi desmontada, ela nunca será montada novamente.
 
 * * *
 
